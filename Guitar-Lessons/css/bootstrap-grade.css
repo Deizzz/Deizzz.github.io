@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--main-color);
+    margin: 0px;
+}
+.navbar-nav >li>a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-nav >li{
+    text-align: center;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus{
+    background-color: transparent;
+    color: var(--gold);
+}
+.navbar-toggle .icon-bar {
+    background-color: var(--gold);
+}
+.navbar-brand{
+    color: var(--gold);
+}
