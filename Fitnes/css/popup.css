@@ -1,0 +1,35 @@
+.popup-overlay{
+  display: none;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.popup{
+  display: none;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  width: 600px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+    
+}
+.pop-title{
+  font-weight: bold;
+  padding: 10px;
+}
+.pop-content{
+  padding: 20px;
+  border-top: 1px solid #ccc;
+    text-align: center;
+}
+.closer{
+  float: right;
+  cursor: pointer;
+}

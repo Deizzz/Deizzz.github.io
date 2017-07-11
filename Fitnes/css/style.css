@@ -1,0 +1,323 @@
+:root{
+    --red:#781b18;
+    --grey:#2f3033;
+    --classes-red:#d91e18;
+}
+body{
+    font-family: 'Bubbler One', sans-serif;
+    
+}
+
+.header-line,
+.navbar,
+.navbar-collapse{
+    background-color: var(--red);
+}
+.header-line{
+}
+.navbar-light .navbar-brand,
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.head-content{
+    height: 820px;
+    background-color: var(--grey);
+    padding-top: 20px;
+}
+.logo-back{
+    position: absolute;
+    top: 0;
+    margin-left: 30%;
+    height: 65px;
+    width: 200px;
+    background-color: #d91e18;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.logo{
+    color: black;
+    text-shadow: 1px 1px white;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    width: auto;
+    padding-top: 20px;
+}
+.about{
+    min-height: 320px;
+    background-color:white;
+    padding: 75px 0 75px 0;
+}
+.exercise{
+    min-height: 360px;
+    background-color: var(--grey);
+    padding: 100px 0 100px 0;
+}
+.info{
+    min-height: 430px;
+    background-color: black;
+    padding: 110px 0 110px 0;
+}
+.trainers{
+    min-height: 670px;
+    background-color: var(--grey);
+    padding: 60px 0 60px 0;
+    
+}
+.classes{
+    min-height: 810px;
+    background-color: var(--classes-red);
+    padding: 60px 0 60px 0;
+}
+.comments{
+    min-height: 490px;
+    background-color: black;
+    padding: 100px 0 100px 0;
+}
+.tips-and-blog{
+    min-height: 1100px;
+    background-color: white;
+    padding: 60px 0 60px 0;
+}
+.contact-us{
+    min-height: 400px;
+    background-color: black;
+    padding: 100px 0 100px 0;
+}
+
+
+
+
+
+.about-txt{
+    font-weight: 200;
+    font-family: 'Hammersmith One', sans-serif;
+}
+h1{
+    margin:0px;
+}
+p{
+    margin: 0px;
+}
+.fitlife-head{
+    background: black;
+    padding: 30px;
+    color: var(--classes-red);
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    border: 10px solid #262729;
+    margin-top: 10px;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+}
+.about-txt-2{
+    color: white;
+    text-align: left;
+}
+.top{
+    margin-top: 370px;
+}
+.card-exercise{
+    width: 100%;
+    height: 200px;
+    border:10px solid #808080;
+    margin-top: 10px;
+    background-color: #2f3033; 
+}
+.card-info{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.trainers-h2{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    
+}
+.card-trainers{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    background-color: black;
+}
+.trainers-row{
+    margin-top: 60px;
+}
+.card-classes{
+    min-height: 500px;
+    background-color: var(--grey);
+    padding: 0px;
+    border: 10px solid  #e87874;
+    margin-top: 10px;
+}
+.img-classes{
+    background-color:#6e6f72;
+    height: 250px;
+}
+hr{
+    background-color: white;
+}
+.info-classes{
+    padding: 20px;
+}
+.classes-h{
+    text-align: left;
+    color:white;
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 0px;
+}
+.btn-classes{
+    color: white;
+    background-color: var(--classes-red);
+    border:0px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;   
+    transition: 300ms ease-in-out;
+}
+.btn-classes:hover{
+    background-color: white;
+    color: var(--classes-red);
+    border: 10px solid #6e6f72;
+}
+.btn-classes:focus{
+    border: 10px solid #6e6f72;
+    transition: 300ms ease-in-out;
+}
+.right{
+    float: right;
+}
+.img-comments{
+    height: 300px;
+}
+.comments-p{
+    padding: 50px 20px 10px 20px;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}
+.comments-h{
+    padding: 30px 20px 10px 20px;
+}
+.blog-big{
+    background-color: black;
+    min-height: 270px;
+    padding: 30px;
+    
+}
+.blog-small{
+    background-color: #6e6f72;
+}
+.blog-row{
+    margin-top: 8px;
+}
+.bottom{
+    margin-top: 70px;
+}
+a>.right:hover{
+    color: var(--classes-red);
+    transition: 300ms ease-in-out;
+}
+.blog-p{
+    margin-bottom: 50px;
+}
+.form-contact{
+    background-color: var(--classes-red);
+    padding: 50px;
+    border: 10px solid #f6cccb;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    background-color:#e87874;
+    border: 0px;
+    margin: 10px;
+    color: #f6cccb;
+    font-size: 20px;
+    
+}
+.input:hover,
+.input:focus{
+    padding: 9px;
+    border: 1px solid #f6cccb;
+    outline: none;
+}
+.input::-webkit-input-placeholder
+{
+    color: #f6cccb;
+    font-family: 'Hammersmith One', sans-serif;
+}
+input:-moz-placeholder {
+    color: #f6cccb;
+    font-family: 'Hammersmith One', sans-serif;
+}
+textarea{
+    height: 90%;
+    resize: none;
+}
+.btn-send{
+    margin-top: 15px;
+    padding: 15px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border: 10px solid #f6cccb;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 24px;
+    transition: 300ms ease-in-out;
+}
+.btn{
+    text-align: center;
+}
+.btn-send:hover{
+    background-color: white;
+    color: var(--classes-red);
+    border: 10px solid #6e6f72;
+}
+.footer{
+    text-align: center;
+}
+.footer-h{
+    color: black;
+    text-shadow: 1px 1px white;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    width: auto;
+    padding-top: 20px;
+}
+.txt-big{
+    font-size: 30px;
+}
+.h2-footer{
+    text-align: center;
+    width: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.social-ico{
+    color: white;
+}
+a .fa-facebook:hover{
+    color:#3b5998;
+}
+a .fa-twitter:hover{
+    color:#55acee;
+}
+a .fa-vk:hover{
+    color: #507299;
+}
+a. fa-telegram:hover{
+    color:0088cc;
+}
+.copy-p{
+    color: white;
+    text-align: center;
+}
+    
